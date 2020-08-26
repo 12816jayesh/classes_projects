@@ -1,0 +1,136 @@
+.special{
+    width: 300px;
+    height: 200px;
+    border: 2px solid yellow;
+    color: yellow;
+    background-color: black;
+    opacity: 0.8;
+    margin-top: 20px;
+    border-radius: 30px;
+    position: relative;
+    text-align: center;
+}
+.special h2{
+    position: relative;
+    margin: 25% auto;
+}
+     .special:hover{
+         background-color: yellow;
+         color: black;
+         border: 2px solid yellow;
+
+}
+.intro-parts{
+    border: 2px solid black;
+    width: auto;
+    height: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.addmiss-box{
+    margin-top: 20px;
+    padding-top: 20px;
+    width: auto;
+    height: 220px;
+    background-color: black;
+}
+.footer-div{
+    position: relative;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+   
+}
+.bottom-classes{
+ 
+    width: 350px;
+    height: 400px;
+}
+.servise-intro{
+    color: white;
+    padding-top: 30px;
+
+}
+.Exams{
+    color: white;
+    padding-top: 30px;
+
+}
+.login{
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+#join{
+    position: fixed;
+    line-height: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 200ms linear;
+    z-index: 9999;
+
+}
+#join:target{
+    opacity: 1;
+    pointer-events: all;
+}
+#join div{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border: 2px solid yellow;
+padding-top: 30px;
+padding-left: 80px;
+margin: 10% auto;
+    
+}
+a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+#Membership{
+    position: fixed;
+    line-height: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 200ms linear;
+    z-index: 9999;
+}
+#Membership:target{
+    opacity: 1;
+    pointer-events: all;
+}
+#Membership div{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border: 2px solid yellow;
+padding-top: 30px;
+padding-left: 80px;
+margin: 10% auto;
+    
+}
